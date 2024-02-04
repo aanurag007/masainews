@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai News</title>
+    <style>
+      #first {
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(232, 233, 239);
+      }
+
+      #second {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+      }
+
+      #second > div {
+        width: 28%;
+        height: 250px;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-bottom: 100px;
+        border-radius: 8px;
+        background-color: white;
+      }
+
+      #second img {
+        width: 70%;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      #first > button {
+        color: crimson;
+        margin-top: 20px;
+        /* display: block; */
+        /* margin-bottom: 20px; */
+        margin-top: 100px;
+        color: red;
+        border: 1px solid red;
+        border-radius: 6px;
+        padding: 10px;
+      }
+
+      #third {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+      }
+
+      #four {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+      }
+
+      #four > div {
+        width: 28%;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+          rgb(209, 213, 219) 0px 0px 0px 1px inset;
+        border-radius: 8px;
+      }
+
+      #four img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      /* Media Query for smaller screens */
+      @media (max-width: 768px) {
+        #second {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        #second > div {
+          width: 80%;
+        }
+
+        #four {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        #four > div {
+          width: 80%;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="first">
+      <h1>Masai In The News</h1>
+
+      <div id="second">
+        <div>
+          <img
+            src="https://www.careerswave.in/wp-content/uploads/2021/03/Economic-Times-ePaper.jpg"
+            alt=""
+          />
+          <p class="a">21 Dec 2021</p>
+          <h6>
+            Edtech startup Masai School acquires data analytics firm Prepleaf
+            for $1 million.
+          </h6>
+          <p>
+            With their latest acquisition, Masai moves one step closer to
+            becoming...
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="https://images.moneycontrol.com/images/common/mc_logo_200x200.png"
+            alt=""
+          />
+          <p class="a">21 Dec 2021</p>
+          <h6>
+            Edtech startup Masai School acquires data analytics firm Prepleaf
+            for $1 million.
+          </h6>
+          <p>
+            With their latest acquisition, Masai moves one step closer to
+            becoming...
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="https://media.glassdoor.com/sqll/1007204/vccircle-com-squarelogo-1574680108756.png"
+            alt=""
+          />
+          <p class="a">21 Dec 2021</p>
+          <h6>
+            Edtech startup Masai School acquires data analytics firm Prepleaf
+            for $1 million.
+          </h6>
+          <p>
+            With their latest acquisition, Masai moves one step closer to
+            becoming...
+          </p>
+        </div>
+      </div>
+
+      <button>SEE MORE ></button>
+    </div>
+
+    <div id="third">
+      <h1>Our Investors, Who Belive In Us</h1>
+
+      <div id="four">
+        <div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb4Ui7UVXtNQnhC3M0Q2elB6CfCBgC1SJMdpOONE1n9MbQ6HUelo9ljKMddCjl4609AVA&usqp=CAU"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb4Ui7UVXtNQnhC3M0Q2elB6CfCBgC1SJMdpOONE1n9MbQ6HUelo9ljKMddCjl4609AVA&usqp=CAU"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb4Ui7UVXtNQnhC3M0Q2elB6CfCBgC1SJMdpOONE1n9MbQ6HUelo9ljKMddCjl4609AVA&usqp=CAU"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
